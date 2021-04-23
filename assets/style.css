@@ -1,0 +1,127 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+#nav-bar
+{
+	position: sticky;
+	top:0;
+	z-index: 10;
+}
+.navbar
+{
+	background-color:#252627;
+}
+.navbar-brand
+{
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #707070 !important;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{	
+	color: #fff !important;
+	font-weight: 300;
+}
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px !important;
+}
+#banner
+{
+	background-color: #313233;
+	color:#fff;
+	padding-top: 5%;
+}
+.title
+{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+#about
+{
+	background-color: #313233;
+	color: #fff;
+	padding: 5%;
+}
+.card
+{
+	box-shadow: 5px 10px #888888;
+}
+.card-title
+{
+	font-size: 2rem;
+	color: #ED5565;
+}
+#skills
+{
+	background-color: #313233;
+	color: #fff;
+	padding: 2%;
+	margin-bottom: 5%;
+}
+#title{
+	font-size: 2rem;
+	color: #ED5565;
+}
+#sub
+{
+	font-size: 1.5rem;
+	color: #707070;
+	margin-top: 3%;
+}
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+.footer {
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #252627;
+  color: white;
+  text-align: center;
+  margin-top:5%; 
+}
